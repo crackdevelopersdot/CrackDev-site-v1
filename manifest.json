@@ -1,0 +1,15 @@
+{
+    "short_name": "Crack Developers",
+    "name": "Crack Developers - Tailored Tech Solutions",
+    "icons": [
+        {
+            "src": "./assets/images/projects/logo1.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#050508",
+    "background_color": "#050508"
+}
