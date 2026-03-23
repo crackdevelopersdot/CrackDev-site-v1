@@ -1,0 +1,113 @@
+[
+  {
+    "id": "mahesh",
+    "name": "Mahesh Kumar A S",
+    "number": 1,
+    "date": "CO-FOUNDER",
+    "status": "Visionary Leadership",
+    "roles": [
+      "100% Vision Driven",
+      "Building the foundation of Crack Developers from ground up.",
+      "Leading with creativity and technical excellence.",
+
+      "- MAHI"
+    ],
+    "nodes": [
+      {
+        "key": "story",
+        "intro": {
+          "body": "<p>\"Crack Developers with a vision to revolutionize how businesses connect with their digital audience. Every project we take on is a commitment to excellence, blending creativity with cutting-edge technology to deliver solutions that don't just meet expectations but exceed them. Our journey is just beginning, and we're here to make a lasting impact.\"</p>"
+        }
+      }
+    ],
+    "next": "sriram"
+  },
+  {
+    "id": "sriram",
+    "name": "Sriram R",
+    "number": 2,
+    "date": "CO-FOUNDER",
+    "status": "Technical Excellence",
+    "roles":  [
+      "100 %  Technical Excellence",
+      "Driving development with precision and expertise.",
+      "24/7  Problem Solver",
+      "Turning complex challenges into elegant solutions.",
+      "- SRIRAM R"
+    ],
+    "nodes": [
+      {
+        "key": "story",
+        "intro": {
+          "body": "<p>\"As a co-founder, I believe in the power of technology to transform ideas into reality. My role at Crack Developers is to ensure every line of code we write serves a purpose, and every solution we build stands the test of time. Together with Mahi, we're building something extraordinary.\"</p><p>Sriram R - Co-Founder</p>"
+        }
+      }
+    ],
+    "next": "kalanidhi"
+  },
+  {
+    "id": "kalanidhi",
+    "name": "Kalanidhi M C",
+    "number": 3,
+    "date": "CO-FOUNDER",
+    "status": "Growth Focused",
+    "roles": [
+      "100 %  Growth Focused",
+      "Scaling businesses through strategic partnerships.",
+      "360°  Business Insight",
+      "Bridging client needs with innovative solutions.",
+      "- KALANIDHI M C"
+    ],
+    "nodes": [
+      {
+        "key": "story",
+        "intro": {
+          "body": "<p>\"Strategy and growth are at the heart of everything we do. At Crack Developers, I focus on building meaningful partnerships and ensuring our clients achieve their business goals through smart, scalable solutions. Our team's synergy is what makes us unstoppable.\"</p><p>Kalanidhi M C - Co-Founder</p>"
+        }
+      }
+    ],
+    "next": "gokulnath"
+  },
+  {
+    "id": "gokulnath",
+    "name": "Gokulnath K",
+    "number": 4,
+    "date": "Co-Founder",
+    "status": "Team Collaboration",
+    "roles": [
+      "100 %  Team Collaboration",
+      "Aligning team execution with client goals for practical outcomes.",
+      "24/7  Execution Focused",
+      "Delivering scalable digital solutions from idea to impact with consistency."
+    ],
+    "nodes": [
+      {
+        "key": "story",
+        "intro": {
+          "body": "<p>\"At Crack Developers, I focus on aligning team execution with client goals. We build practical and scalable digital solutions with a strong collaboration mindset, ensuring every project moves from idea to impact with consistency and clarity.\"</p><p>Gokulnath K - Co-Founder</p>"
+        }
+      }
+    ],
+    "next": "sabarinathan"
+  },
+  {
+    "id": "sabarinathan",
+    "name": "Sabarinathan",
+    "number": 5,
+    "date": "Co-Founder",
+    "status": "Growth Mindset",
+    "roles": [
+      "100 %  Growth Mindset",
+      "360°  Operational Support"
+    ],
+    "nodes": [
+      {
+        "key": "story",
+        "intro": {
+          "body": "<p>\"I work on turning plans into measurable outcomes. My focus is on steady operations, growth-oriented decision making, and supporting our team to deliver quality solutions that create long-term value for clients.\"</p><p>Sabarinathan - Co-Founder</p>"
+        }
+      }
+    ],
+    "next": "mahesh"
+  }
+]

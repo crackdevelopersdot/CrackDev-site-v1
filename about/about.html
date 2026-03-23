@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="icon" href="/work/assets/logo1.png" type="image/png">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Learn about Crack Developers - our mission, team, and the clients we serve.">
+  <meta name="keywords" content="about us, team, mission, clients, testimonials">
+  <meta name="author" content="Crack Developers">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://crackdevelopersdot.in/about">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Us - Crack Developers">
+  <meta property="og:description" content="Learn about Crack Developers - our mission, team, and the clients we serve.">
+  <meta property="og:image" content="https://crackdevelopersdot.in/assets/images/projects/logo1.png">
+  <meta property="og:url" content="https://crackdevelopersdot.in/about">
+  <meta property="og:site_name" content="Crack Developers">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@CrackDevelopers">
+  <meta name="twitter:title" content="About Us - Crack Developers">
+  <meta name="twitter:description"
+    content="Learn about Crack Developers - our mission, team, and the clients we serve.">
+  <meta name="twitter:image" content="https://crackdevelopersdot.in/assets/images/projects/logo1.png">
+  <meta name="twitter:url" content="https://crackdevelopersdot.in/about">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" href="/work/assets/logo1.png">
+  <link rel="manifest" href="./manifest.json">
+  <title>About Us - Crack Developers.</title>
+  <!-- Includes -->
+  <script src="js/head.js"></script>
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Crack Developers",
+        "url": "https://crackdevelopersdot.in",
+        "logo": "https://crackdevelopersdot.in/assets/logo1.png",
+        "sameAs": [
+            "https://twitter.com/CrackDevelopers"
+        ]
+    }
+    </script>
+  <link rel="stylesheet" href="css/main.css" />
+  <style>
+    #page-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #000;
+      overflow: hidden;
+      transition: opacity .5s ease, visibility .5s ease;
+    }
+
+    #page-loader.is-hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .loader__wrap {
+      position: relative;
+      width: 0;
+      height: 0;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+      animation: loader-rotate 5s infinite linear;
+    }
+
+    .loader__particle {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      opacity: 0;
+      background-color: hsla(var(--hue), 100%, 50%, 1);
+      animation: loader-orbit 14s infinite;
+      animation-delay: calc(var(--index) * 0.01s);
+      box-shadow: 0 0 6px hsla(var(--hue), 100%, 50%, .7);
+    }
+
+    .loader__label {
+      position: fixed;
+      left: 50%;
+      bottom: 12vh;
+      transform: translateX(-50%);
+      color: rgba(255, 255, 255, .6);
+      font-family: "Poppins", sans-serif;
+      font-size: .7rem;
+      letter-spacing: .35em;
+      text-transform: uppercase;
+    }
+
+    @keyframes loader-rotate {
+      100% {
+        transform: rotateY(360deg) rotateX(360deg);
+      }
+    }
+
+    @keyframes loader-orbit {
+      20% {
+        opacity: 1;
+      }
+
+      30%,
+      80% {
+        transform: rotateZ(calc(var(--z) * -1deg)) rotateY(calc(var(--y) * 1deg)) translateX(100px) rotateZ(calc(var(--z) * 1deg));
+        opacity: 1;
+      }
+
+      100% {
+        transform: rotateZ(calc(var(--z) * -1deg)) rotateY(calc(var(--y) * 1deg)) translateX(300px) rotateZ(calc(var(--z) * 1deg));
+        opacity: 0;
+      }
+    }
+  </style>
+  <!-- Includes -->
+
+</head>
+
+<body id="core">
+
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader__wrap" id="loaderWrap"></div>
+    <div class="loader__label">Loading</div>
+  </div>
+
+  <header id="header">
+    <section class="header__container">
+      <nav class="header__navi">
+        <ul class="list list--navi">
+          <li class="list--navi__element list--navi__element--profile"><a href="#/profile">Home</a></li>
+          <li class="list--navi__element list--navi__element--services"><a href="../Service/service.html">Services</a></li>
+          <li class="list--navi__element list--navi__element--projects"><a href="/contact.html">Let's Collaborate</a></li>
+        </ul>
+      </nav>
+
+     <!-- <div class="header__logo">
+        <a href="#">
+          <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 46 66" enable-background="new 0 0 46 66" xml:space="preserve">
+            <path id="logo__A" fill="#0A0A0B" d="M11.8,14.9h1.1L16,22h-1.4l-0.7-1.6h-3.1L10.2,22H8.8L11.8,14.9z M13.4,19.3l-1.1-2.9
+              l-1.1,2.9H13.4z" />
+            <path id="logo__8" fill="#0A0A0B" d="M33.1,14.8c0.3,0,0.6,0,0.9,0.1c0.3,0.1,0.5,0.2,0.7,0.4s0.4,0.4,0.5,0.6
+              c0.1,0.2,0.2,0.5,0.2,0.8c0,0.4-0.1,0.8-0.3,1s-0.5,0.5-0.8,0.6v0c0.2,0,0.4,0.1,0.5,0.2c0.2,0.1,0.3,0.2,0.4,0.4
+              c0.1,0.2,0.2,0.3,0.3,0.5c0.1,0.2,0.1,0.4,0.1,0.6c0,0.4-0.1,0.7-0.2,0.9c-0.1,0.3-0.3,0.5-0.5,0.7s-0.5,0.3-0.8,0.4
+              c-0.3,0.1-0.6,0.1-1,0.1c-0.3,0-0.7,0-1-0.1c-0.3-0.1-0.6-0.2-0.8-0.4c-0.2-0.2-0.4-0.4-0.5-0.7s-0.2-0.6-0.2-0.9
+              c0-0.2,0-0.4,0.1-0.6s0.2-0.4,0.3-0.5c0.1-0.1,0.3-0.3,0.4-0.4c0.2-0.1,0.3-0.2,0.5-0.2v0c-0.3-0.1-0.6-0.3-0.8-0.5
+              c-0.2-0.3-0.3-0.6-0.3-1c0-0.3,0.1-0.6,0.2-0.8c0.1-0.2,0.3-0.5,0.5-0.6s0.4-0.3,0.7-0.4C32.5,14.8,32.8,14.8,33.1,14.8z
+              M33.1,18.8c-0.2,0-0.3,0-0.5,0.1c-0.1,0.1-0.3,0.1-0.4,0.2c-0.1,0.1-0.2,0.2-0.3,0.4c-0.1,0.2-0.1,0.3-0.1,0.5
+              c0,0.4,0.1,0.7,0.4,0.9s0.5,0.3,0.9,0.3c0.3,0,0.6-0.1,0.9-0.3s0.4-0.5,0.4-0.9c0-0.2,0-0.3-0.1-0.5c-0.1-0.2-0.1-0.3-0.3-0.4
+              c-0.1-0.1-0.2-0.2-0.4-0.3C33.5,18.8,33.3,18.8,33.1,18.8z M33.1,15.8c-0.3,0-0.5,0.1-0.7,0.3s-0.3,0.4-0.3,0.7
+              c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.4,0.3,0.7,0.3c0.1,0,0.3,0,0.4-0.1c0.1-0.1,0.2-0.1,0.3-0.2s0.2-0.2,0.2-0.3s0.1-0.3,0.1-0.4
+              c0-0.2,0-0.3-0.1-0.4c-0.1-0.1-0.1-0.2-0.2-0.3c-0.1-0.1-0.2-0.2-0.3-0.2C33.4,15.8,33.3,15.8,33.1,15.8z" />
+            <path id="logo__7" fill="#0A0A0B" d="M9.3,43.7h4.8v1.1l-2.8,6H9.9l3-6H9.3V43.7z" />
+            <path id="logo__H" fill="#0A0A0B" d="M30.9,43.7h1.3v2.9h3.3v-2.9h1.3v7.1h-1.3v-3.1h-3.3v3.1h-1.3V43.7z" />
+            <rect id="logo__outer" x="0.5" y="0.5" fill="none" stroke="#0A0A0B" stroke-width="2.5"
+              stroke-miterlimit="10" width="45" height="65" />
+            <line id="logo__inner" fill="none" stroke="#2C308C" stroke-width="1.5" stroke-miterlimit="10" x1="23"
+              y1="15" x2="23" y2="50.8" />
+          </svg>
+        </a>
+      </div>-->
+
+    </section>
+
+  </header>
+
+  <section class="canvas canvas--frame">
+
+    <section id="helpers">
+      <svg version="1.1" id="helpers__circle" class="helpers__svg parallax parallax__circle rotate rotate__circle"
+        data-parallax-values="2,-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve"></svg>
+      <!--<svg version="1.1" id="helpers__rectangle" class="helpers__svg parallax parallax__rectangle rotate rotate__rectangle" data-speed-x="4" data-speed-y="5" data-speed-z="40" data-speed-rotate="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 90 90" enable-background="new 0 0 90 90" xml:space="preserve"></svg>-->
+      <svg version="1.1" id="helpers__line" class="helpers__svg parallax parallax__line rotate rotate__line"
+        data-parallax-values="3,2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 120 6" enable-background="new 0 0 120 6" xml:space="preserve"></svg>
+    </section>
+
+    <section id="frame" class="parallax parallax--frame rotate rotate--frame" data-parallax-values="10,-5">
+      <svg version="1.1" id="frame__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="0 0 380 600" enable-background="new 0 0 380 600" xml:space="preserve"></svg>
+    </section>
+
+  </section>
+
+  <section id="render"></section>
+
+  <section id="overlay"></section>
+
+  <nav id="pagination"></nav>
+
+  <script src="//use.typekit.net/pew5kdo.js"></script>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '457141291153748',
+        xfbml: true,
+        version: 'v2.5'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { return; }
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+        function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+      e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+      e.src = '//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-44784707-1', 'admirhadzic.com'); ga('send', 'pageview');
+  </script>
+  <script>try { Typekit.load(); } catch (e) { }</script>
+  <script>
+    (function () {
+      var loader = document.getElementById('page-loader');
+      var loaderWrap = document.getElementById('loaderWrap');
+      var totalParticles = 300;
+      var baseHue = 0;
+      var hidden = false;
+
+      function buildParticles() {
+        if (!loaderWrap) {
+          return;
+        }
+
+        var fragment = document.createDocumentFragment();
+
+        for (var index = 1; index <= totalParticles; index++) {
+          var particle = document.createElement('div');
+          particle.className = 'loader__particle';
+          particle.style.setProperty('--index', index);
+          particle.style.setProperty('--z', Math.floor(Math.random() * 360));
+          particle.style.setProperty('--y', Math.floor(Math.random() * 360));
+          particle.style.setProperty('--hue', ((40 / totalParticles) * index) + baseHue);
+          fragment.appendChild(particle);
+        }
+
+        loaderWrap.appendChild(fragment);
+      }
+
+      function hideLoader() {
+        if (!loader || hidden) {
+          return;
+        }
+
+        hidden = true;
+        loader.classList.add('is-hidden');
+        window.setTimeout(function () {
+          if (loader && loader.parentNode) {
+            loader.parentNode.removeChild(loader);
+          }
+        }, 600);
+      }
+
+      function waitForRender() {
+        var render = document.getElementById('render');
+        var started = Date.now();
+
+        function checkRender() {
+          var hasContent = render && (render.children.length > 0 || render.textContent.trim().length > 0);
+          var timedOut = Date.now() - started > 5000;
+
+          if (hasContent || timedOut) {
+            hideLoader();
+            return;
+          }
+
+          window.setTimeout(checkRender, 120);
+        }
+
+        checkRender();
+      }
+
+      buildParticles();
+      window.addEventListener('load', waitForRender);
+    }());
+  </script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
