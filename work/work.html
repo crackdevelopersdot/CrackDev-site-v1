@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Our Work - Crack Developers.</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="/work/assets/logo1.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/work/assets/logo1.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="assets/vendors/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="assets/css/application.css">
+    <link rel="icon" href="/work/assets/logo1.png" type="image/png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Explore our portfolio of projects at Crack Developers. See our work in website development, app development, game development, and more.">
+    <meta name="keywords" content="portfolio, projects, case studies, website development, app development, game development">
+    <meta name="author" content="Crack Developers">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://crackdevelopersdot.in/work">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Work - Crack Developers">
+    <meta property="og:description" content="Explore our portfolio of projects showcasing our expertise in digital solutions.">
+    <meta property="og:image" content="https://crackdevelopersdot.in/assets/images/projects/logo1.png">
+    <meta property="og:url" content="https://crackdevelopersdot.in/work.html">
+    <meta property="og:site_name" content="Crack Developers">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@CrackDevelopers">
+    <meta name="twitter:title" content="Our Work - Crack Developers">
+    <meta name="twitter:description" content="Explore our portfolio of projects showcasing our expertise in digital solutions.">
+    <meta name="twitter:image" content="https://crackdevelopersdot.in/assets/images/projects/logo1.png">
+    <meta name="twitter:url" content="https://crackdevelopersdot.in/work.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="/work/assets/logo1.png">
+    <link rel="manifest" href="./manifest.json">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Crack Developers",
+        "url": "https://crackdevelopersdot.in",
+        "logo": "https://crackdevelopersdot.in/assets/logo1.png",
+        "sameAs": [
+            "https://twitter.com/CrackDevelopers"
+        ]
+    }
+    </script>
+    <style>
+        #loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: grid;
+            place-items: center;
+            background: #000;
+            overflow: hidden;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        #loader.is-hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        #loader .wrap {
+            position: relative;
+            width: 0;
+            height: 0;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            animation: rotate-orb 5s linear infinite;
+        }
+
+        #loader .c {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            border-radius: 50%;
+            opacity: 0;
+            animation-name: orbit;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            will-change: transform, opacity;
+        }
+
+        #loader .c-loader {
+            position: absolute;
+            width: 0;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        @keyframes rotate-orb {
+            to {
+                transform: rotateY(360deg) rotateX(360deg);
+            }
+        }
+
+        @keyframes orbit {
+            20% {
+                opacity: 1;
+            }
+
+            30% {
+                transform: rotateZ(calc(-1deg * var(--z))) rotateY(calc(1deg * var(--y))) translateX(100px) rotateZ(calc(1deg * var(--z)));
+            }
+
+            80% {
+                transform: rotateZ(calc(-1deg * var(--z))) rotateY(calc(1deg * var(--y))) translateX(100px) rotateZ(calc(1deg * var(--z)));
+                opacity: 1;
+            }
+
+            100% {
+                transform: rotateZ(calc(-1deg * var(--z))) rotateY(calc(1deg * var(--y))) translateX(300px) rotateZ(calc(1deg * var(--z)));
+            }
+        }
+    </style>
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="./lib/emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body class="">
+    <div id="canvas"></div>
+
+    <div id="loader">
+        <div class="wrap" id="particle-loader"></div>
+        <div class="c-loader" aria-hidden="true">
+            <div class="c-loader__wrapper">
+                <span class="loading-text">Loading</span>
+                <span data-bar></span>
+            </div>
+            <span data-progress class="loading-text">0</span>
+        </div>
+    </div>
+
+    <main id="barba-wrapper" class="page-view">
+        <header class="c-header">
+            <a class="c-header__logo" href="/" data-namespace="homepage">
+                <img src="assets/logo1.png" alt="Crack Developers Logo">
+            </a>
+            <nav>
+                <ul class="c-nav">
+                    <li class="c-nav__item">
+                        <a class="o-link no-barba" data-direct-link href="/" data-namespace="homepage">Home</a>
+                    </li>
+                                        <li class="c-nav__item">
+                                            <a class="o-link no-barba" data-direct-link href="/Service/service.html" data-namespace="services">Services</a>
+                    </li>
+                    <li class="c-nav__item">
+                        <a class="o-link no-barba" data-direct-link href="/about/about.html" data-namespace="about">About</a>
+                    </li>
+                    <li class="c-nav__item c-buttonshop">
+                        <a class="o-link o-link--buttonshop no-barba" data-direct-link href="/contact.html">Let's Collaborate</a>
+                    </li>
+
+        </ul>
+    </nav>
+</header>
+
+
+<div class="barba-container" data-namespace="homepage">
+    <div id="scrollable">
+        <section id="slider">
+            <nav id="slider-navigator" class="c-navigator">
+                <ul class="c-navigator__container"></ul>
+            </nav>
+            <ul class="c-slider" >
+                <li class="c-slide" data-active data-title="Welcome">
+                    <div class="c-dot">
+                        <a data-hover href="/about.html" data-namespace="about">
+                            <svg class="o-big-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"/>
+                            </svg>
+                            <div class="c-dot__text" data-split>
+                                <h2>Crack Developer's Work</h2>
+                                <strong class="o-subtitle">The work we do,<br> and the people we help.</strong>
+                            </div>
+                        </a>
+                        <div class="drag-or-scroll" data-tip data-split>
+                            drag <span class="u-hidden--until-l-tablet">or scroll</span> to navigate
+                        </div>
+                    </div>
+                </li>
+                
+                
+                <li class="c-slide" data-title="Rhythm">
+                    <div class="c-dot">
+                        <a class="no-barba" data-project-link data-hover href="projects/rhythm.html">
+                            <svg class="o-big-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"/>
+                            </svg>
+                            <div class="c-slide__text" data-split>
+                                <h2>Rhythm</h2>
+                                <strong class="o-subtitle">An ad-free music app that lets you enjoy seamless listening experience.</strong>
+
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                
+                <li class="c-slide" data-title="Echo OS">
+                    <div class="c-dot">
+                        <a class="no-barba" data-project-link data-hover href="projects/echoos.html">
+                            <svg class="o-big-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"/>
+                            </svg>
+                            <div class="c-slide__text" data-split>
+                                <h2>Echo OS</h2>
+                                <strong class="o-subtitle">A specialized secured bootloader for enhanced system protection.</strong>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                
+                <li class="c-slide" data-title="TruthShield">
+                    <div class="c-dot">
+                        <a class="no-barba" data-project-link data-hover href="projects/truthshield.html">
+                            <svg class="o-big-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"/>
+                            </svg>
+                            <div class="c-slide__text" data-split>
+                                <h2>TruthShield</h2>
+                                <strong class="o-subtitle">A fake news detection system that helps identify misinformation and verify news authenticity.</strong>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                
+                <li class="c-slide" data-title="Skull Hunt">
+                    <div class="c-dot">
+                        <a class="no-barba" data-project-link data-hover href="projects/skullhunt.html">
+                            <svg class="o-big-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"/>
+                            </svg>
+                            <div class="c-slide__text" data-split>
+                                <h2>Skull Hunt</h2>
+                                <strong class="o-subtitle">An action-packed survival game where players hunt skulls in a dark, immersive world filled with challenges and mysteries.</strong>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                
+            </ul>
+        </section>
+
+        <a class="c-button-shop" href="https://crackdevelopersdo.com/Contact" target="_blank">
+            Lets Collaborate
+        </a>
+    </div>
+</div>
+
+</main>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-96031023-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src="assets/js/build.js"></script>
+<script>
+    (function () {
+        var total = 300;
+        var baseHue = 0;
+        var wrap = document.getElementById("particle-loader");
+
+        if (!wrap) {
+            return;
+        }
+
+        var fragment = document.createDocumentFragment();
+
+        for (var i = 1; i <= total; i++) {
+            var particle = document.createElement("div");
+            var hue = (40 / total) * i + baseHue;
+            particle.className = "c";
+            particle.style.setProperty("--z", Math.floor(Math.random() * 360));
+            particle.style.setProperty("--y", Math.floor(Math.random() * 360));
+            particle.style.backgroundColor = "hsla(" + hue + ", 100%, 50%, 1)";
+            particle.style.animationDelay = (i * 0.01) + "s";
+            fragment.appendChild(particle);
+        }
+
+        wrap.appendChild(fragment);
+    })();
+</script>
+<script>
+    (function () {
+        var loader = document.getElementById("loader");
+        var hasHidden = false;
+
+        if (!loader) {
+            return;
+        }
+
+        function hideLoader() {
+            if (hasHidden) {
+                return;
+            }
+
+            hasHidden = true;
+            loader.classList.add("is-hidden");
+
+            window.setTimeout(function () {
+                loader.style.display = "none";
+            }, 600);
+        }
+
+        window.addEventListener("load", function () {
+            window.setTimeout(hideLoader, 800);
+        });
+
+        window.setTimeout(hideLoader, 5000);
+    })();
+</script>
+<script>
+    (function () {
+        var directLinks = document.querySelectorAll("a[data-project-link], a[data-direct-link]");
+        var isNavigating = false;
+
+        if (!directLinks.length) {
+            return;
+        }
+
+        function openProject(event) {
+            var href = this.getAttribute("href");
+            var target = this.getAttribute("target");
+
+            if (isNavigating) {
+                return;
+            }
+
+            if (!href) {
+                return;
+            }
+
+            isNavigating = true;
+            event.preventDefault();
+            event.stopPropagation();
+
+            if (target === "_blank") {
+                window.open(href, "_blank", "noopener,noreferrer");
+                isNavigating = false;
+                return;
+            }
+
+            window.location.assign(href);
+        }
+
+        Array.prototype.forEach.call(directLinks, function (link) {
+            link.addEventListener("click", openProject, true);
+            link.addEventListener("touchend", openProject, { capture: true, passive: false });
+        });
+    })();
+</script>
+</body>
+</html>
